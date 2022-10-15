@@ -1,0 +1,51 @@
+    @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+    
+    body {
+      margin: 0;
+      font-family: 'Roboto', sans-serif;
+    }
+
+    a {
+      color: white;
+      text-decoration: none;
+    }
+
+    header {
+      background: deepskyblue;
+      position: fixed;
+      width: 100%; 
+    }
+    header > .container {
+      height: 100px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 0 2.7rem;
+    }
+
+    .logo {
+      /* background: darkorange; */
+      background-image: url('./alien.svg');
+      height: 50px;
+      width: 50px;
+    }
+    .navlinks {
+      /* background: darkorchid; */
+    }
+    .navlink {
+      margin-left: 20px;
+      transition: color 0.15s ease;
+      font-size: 1.4rem;
+    }
+    .navlink:hover {
+      color: orange !important;
+      text-decoration: underline;
+    }
+
+    section {
+      height: 100vh;
+    }
+    section#hero { background: lightblue; }
+    section#portfolio { background: lightgreen; }
+    section#about { background: hotpink; }
+    section#skills { background: cornflowerblue; }
